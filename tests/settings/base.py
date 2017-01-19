@@ -4,7 +4,6 @@ import os
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
 DEBUG = True
-TEMPLATE_DEBUG = DEBUG
 
 SECRET_KEY = 'NOTASECRET'
 
@@ -56,6 +55,7 @@ TEMPLATES = [
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
             ],
+            'debug': True,
         },
     },
 ]
