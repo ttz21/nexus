@@ -8,6 +8,10 @@ Pending Release
 ---------------
 
 * New release notes here
+
+1.5.0 (2017-01-19)
+------------------
+
 * Added CSRF token on the base template to make AJAX requests work when Django's ``CSRF_COOKIE_HTTPONLY`` setting is
   set
 * Removed the now obsolete template tag ``nexus_csrf_cookie_name``
