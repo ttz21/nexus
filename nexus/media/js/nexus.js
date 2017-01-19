@@ -1,4 +1,4 @@
-// AJAX CSRF setup. Source: http://docs.djangoproject.com/en/1.2/ref/contrib/csrf/#ajax
+// AJAX CSRF setup. Source: https://docs.djangoproject.com/en/1.10/ref/csrf/#ajax
 
 jQuery.ajaxSetup({
     beforeSend: function(xhr, settings) {
